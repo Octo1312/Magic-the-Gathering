@@ -1,3 +1,48 @@
+@font-face {
+  font-family: "Lato Regular";
+  src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: "Lato Bold";
+  src: url(../fonts/Lato-Bold.ttf);
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Regular", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  border-radius: 1rem;
+  background-color: #0A0B0D;
+  color: #FFFFFF;
+  text-align: center;
+  display: inline-block;
+  padding: 2%;
+  width: 30vh;
+}
 
 /*# sourceMappingURL=style.css.map */
