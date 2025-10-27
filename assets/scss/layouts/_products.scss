@@ -1,0 +1,35 @@
+@use '../abstracts/variables' as var;
+
+#products {
+    .container {
+        text-align: center;
+
+        h2 {
+            color: var.$couleur-secondaire;
+            font-size: 2rem;
+        }
+
+        h3 {
+            color: var.$white;
+        }
+
+        .cards .container {
+            display: flex;
+
+            .card {
+                width: 25%;
+
+                .eoe {
+                    background-image: url("../img/EOE-003_NJASJASAJHD_Collector_FR.png");
+                }
+
+                .card-img {
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}

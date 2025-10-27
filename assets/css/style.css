@@ -254,4 +254,28 @@ header .nav nav li .btn {
   border-radius: 1.5em;
 }
 
+#products .container {
+  text-align: center;
+}
+#products .container h2 {
+  color: #B03114;
+  font-size: 2rem;
+}
+#products .container h3 {
+  color: #FFFFFF;
+}
+#products .container .cards .container {
+  display: flex;
+}
+#products .container .cards .container .card {
+  width: 25%;
+}
+#products .container .cards .container .card .eoe {
+  background-image: url("../img/EOE-003_NJASJASAJHD_Collector_FR.png");
+}
+#products .container .cards .container .card .card-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
 /*# sourceMappingURL=style.css.map */
