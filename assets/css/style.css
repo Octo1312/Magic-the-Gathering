@@ -49,8 +49,8 @@ header {
 }
 header .nav {
   display: flex;
-  justify-content: center;
-  gap: 50%;
+  justify-content: space-around;
+  gap: 20%;
 }
 header .nav img {
   height: 50px;
@@ -66,6 +66,35 @@ header .nav nav li a {
 header .nav nav li .btn {
   border: 1px solid #0A0B0D;
   background-color: #B03114;
+}
+
+#reduction {
+  background-color: #B03114;
+  color: #FFFFFF;
+  padding: 1% 0;
+}
+#reduction .container {
+  display: flex;
+  justify-content: space-between;
+}
+#reduction .container .reducleft {
+  width: 50%;
+}
+#reduction .container .reducleft p a {
+  color: #FFFFFF;
+  background-color: rgba(233, 233, 233, 0.329);
+  padding: 1%;
+  border-radius: 5px;
+}
+#reduction .container .btn {
+  color: #0A0B0D;
+  background-color: #FFFFFF;
+  border-radius: 1rem;
+  text-align: center;
+  display: inline-block;
+  width: 15%;
+  padding: 1%;
+  font-size: larger;
 }
 
 /*# sourceMappingURL=style.css.map */

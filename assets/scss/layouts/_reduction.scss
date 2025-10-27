@@ -1,0 +1,36 @@
+@use '../abstracts/variables' as var;
+
+#reduction {
+    background-color: var.$couleur-secondaire;
+    color: var.$white;
+    padding: 1% 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        .reducleft {
+            width: 50%;
+
+            p {
+                a {
+                    color: var.$white;
+                    background-color: var.$couleur-tertiaire;
+                    padding: 1%;
+                    border-radius: 5px;
+                }
+            }
+        }
+
+        .btn {
+            color: var.$couleur-principale;
+            background-color: var.$white;
+            border-radius: 1rem;
+            text-align: center;
+            display: inline-block;
+            width: 15%;
+            padding: 1%;
+            font-size: larger;
+        }
+    }
+}

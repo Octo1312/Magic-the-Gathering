@@ -1,7 +1,4 @@
 @use '../abstracts/variables' as var;
-@use '../base/utils' as utils;
-@use '../base/fonts' as font;
-@use '../components/btn' as btn;
 
 header {
     background-color: var.$couleur-principale;
@@ -9,8 +6,8 @@ header {
     padding: 1%;
     .nav {
         display: flex;
-        justify-content: center;
-        gap: 50%;
+        justify-content: space-around;
+        gap: 20%;
         img {
             height: 50px;
         }
