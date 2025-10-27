@@ -1,7 +1,9 @@
 @use '../abstracts/variables' as var;
-@use '../abstracts/mixins' as mix;
 @use '../base/utils' as utils;
 
 .btn {
-    @include mix.btn(var.$white, var.$couleur-principale);
+    padding: 7px 20px;
+    background-color: var.$couleur-principale;
+    border-radius: 5px;
+    color: var.$white;
 }
