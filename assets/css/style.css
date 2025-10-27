@@ -254,26 +254,47 @@ header .nav nav li .btn {
   border-radius: 1.5em;
 }
 
-#products .container {
+#products .productcontainer {
   text-align: center;
+  margin-top: 5%;
 }
-#products .container h2 {
+#products .productcontainer h2 {
   color: #B03114;
   font-size: 2rem;
 }
-#products .container h3 {
+#products .productcontainer p {
   color: #FFFFFF;
+  margin-bottom: 3%;
 }
-#products .container .cards .container {
+#products .cards {
   display: flex;
 }
-#products .container .cards .container .card {
+#products .cards .card {
   width: 25%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20%;
 }
-#products .container .cards .container .card .eoe {
-  background-image: url("../img/EOE-003_NJASJASAJHD_Collector_FR.png");
+#products .cards .card.eoe {
+  background-image: url("../img/bfheuakyrubvwr448i.webp");
 }
-#products .container .cards .container .card .card-img img {
+#products .cards .card.tarkir {
+  background-image: url("../img/Bniwbiedb2.webp");
+}
+#products .cards .card.fondations {
+  background-image: url("../img/BbvlL835T_CMM_420x700.webp");
+}
+#products .cards .card.innistrad {
+  background-image: url("../img/Cwtyiugh346-420x700.webp");
+}
+#products .cards .card-content h2 {
+  color: #FFFFFF;
+  text-align: center;
+  padding: 0 10%;
+  font-size: 2rem;
+}
+#products .cards .card-img img {
   width: 100%;
   object-fit: cover;
 }
