@@ -69,6 +69,73 @@ header .nav nav li .btn {
   background-color: #B03114;
 }
 
+#arena {
+  background-image: url("../img/latest-products-bg.webp");
+}
+#arena .container {
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  padding: 5% 0;
+  text-align: start;
+}
+#arena .container .arena-text {
+  width: 50%;
+}
+#arena .container .arena-text h3 {
+  margin-bottom: 0;
+}
+#arena .container .arena-text h2 {
+  margin-top: 0;
+  color: #B03114;
+  font-size: 2rem;
+}
+#arena .container .arena-text p {
+  color: #D3D3D3;
+}
+#arena .container .arena-text .peti {
+  font-size: 0.8rem;
+  margin: 1% 0;
+  color: #D3D3D3;
+}
+#arena .container .arena-text ul {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 3%;
+}
+#arena .container .arena-text ul li {
+  background-color: #0F1217;
+  border: 1px solid #23262A;
+  padding: 2%;
+  border-radius: 0.5rem;
+}
+#arena .container .arena-text .btnarena {
+  display: flex;
+  gap: 15px;
+}
+#arena .container .arena-text .btnarena .btn {
+  background-color: #B03114;
+  color: #FFFFFF;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 1rem;
+  margin-bottom: 0;
+}
+#arena .container .arena-text .btnarena .dispo {
+  background-color: transparent;
+  color: #B03114;
+  border: 1px solid #B03114;
+}
+#arena .container .arena-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
 #reduction {
   background-color: #B03114;
   color: #FFFFFF;
