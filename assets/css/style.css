@@ -43,6 +43,30 @@ ul {
   color: #FFFFFF;
 }
 
+footer {
+  background-color: #0F1217;
+  color: #FFFFFF;
+  padding: 1% 0;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .footerleft img {
+  height: 50px;
+}
+footer .container ul {
+  display: flex;
+  gap: 5%;
+}
+footer .container ul li a {
+  color: #FFFFFF;
+}
+footer .container p {
+  color: #D3D3D3;
+}
+
 header {
   background-color: #0A0B0D;
   font-family: "Roboto Regular", sans-serif;
