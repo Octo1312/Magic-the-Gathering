@@ -1,0 +1,38 @@
+@use '../abstracts/variables' as var;
+
+#hero {
+    background-image: url("../img/banner.webp");
+    height: 72vh;
+
+    .container {
+        backdrop-filter: blur(3px);
+        background-color: var.$couleur-container-hero;
+        width: 50%;
+        border-radius: 1rem;
+        padding: 3%;
+        position: relative;
+        top: 42%;
+        right: 12%;
+
+        h1 {
+            color: var.$couleur-secondaire;
+            margin-top: 0;
+            margin-bottom: 0.2em;
+            font-size: 3rem;
+        }
+
+        h3 {
+            margin: 0;
+        }
+
+        .getstarterbundle {
+            margin-top: 5%;
+
+            .btn {
+                background-color: var.$couleur-secondaire;
+                color: var.$white;
+                padding: 2%;
+            }
+        }
+    }
+}

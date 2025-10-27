@@ -20,6 +20,7 @@
 body {
   margin: 0;
   font-family: "Roboto Regular", sans-serif;
+  background-color: #0A0B0D;
 }
 
 a {
@@ -92,9 +93,41 @@ header .nav nav li .btn {
   border-radius: 1rem;
   text-align: center;
   display: inline-block;
-  width: 15%;
   padding: 1%;
+  width: 10%;
   font-size: larger;
+}
+
+#hero {
+  background-image: url("../img/banner.webp");
+  height: 72vh;
+}
+#hero .container {
+  backdrop-filter: blur(3px);
+  background-color: rgba(233, 233, 233, 0.637);
+  width: 50%;
+  border-radius: 1rem;
+  padding: 3%;
+  position: relative;
+  top: 42%;
+  right: 12%;
+}
+#hero .container h1 {
+  color: #B03114;
+  margin-top: 0;
+  margin-bottom: 0.2em;
+  font-size: 3rem;
+}
+#hero .container h3 {
+  margin: 0;
+}
+#hero .container .getstarterbundle {
+  margin-top: 5%;
+}
+#hero .container .getstarterbundle .btn {
+  background-color: #B03114;
+  color: #FFFFFF;
+  padding: 2%;
 }
 
 /*# sourceMappingURL=style.css.map */
